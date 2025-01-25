@@ -15,11 +15,20 @@ body {
      margin: 0;
   }
 
-  h1 {
-    color: #fff;
-  }
+ h1 {
+    color: #ffffff;
+ }
+    .screen {
+        cursor: pointer;
+        width: 60%;
+        background-color: #000 !important;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+  
   .controls {
-    background: #333;
+    background: #333; 
     color: #fff;
     width: 60%;
     border-bottom-left-radius: 10px;
@@ -36,12 +45,12 @@ body {
   }
   /* Select the class controls and fa-play */
   .controls .fa-play {
-    color: #28a745;
+    color: #408513;
   }
 
   /* Select the controls and fa-stop */
   .controls .fa-stop {
-    color: #dc3545;
+    color: #b63620;
   }
   /* Select the controls and fa-pause (which we will create in JS */
 .controls .fa-pause {
@@ -56,3 +65,4 @@ body {
 .btn:focus {
     outline: 0;
   }
+  
